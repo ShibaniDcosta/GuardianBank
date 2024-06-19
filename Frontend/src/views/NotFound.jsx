@@ -1,0 +1,25 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { ReactComponent as NotFoundSVG } from "../assets/imgs/E-BANK-404.svg";
+
+const NotFoundPage = () => {
+  return (
+    <div className="min-h-screen w-full flex justify-center items-center p-4 md:p-6">
+      <div className="max-w-5xl w-full flex flex-col justify-center items-center p-6 bg-amber-50 rounded shadow-lg shadow-black/30  border-amber-800">
+        <h2 className="text-2xl md:text-3xl text-center font-bold text-blue-900 mb-3">
+          Page Not Found
+        </h2>
+
+        <Link
+          to="/"
+          className="flex font-bold text-xs sm:text-sm bg-indigo-800 text-white hover:bg-white my-5 px-2 sm:px-3 py-2 hover:text-blue-800 border hover:border-blue-800 items-center rounded
+         shadow transition-all ease-in-out duration-300"
+        >
+          Home
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default NotFoundPage;
