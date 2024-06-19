@@ -12,7 +12,7 @@ The Guardian Bank Secure Banking System (SBS) is a software system developed to 
 - **Concurrent User Support**: Allows multiple users to use the system simultaneously with secure transaction logging for external audits.
 
 ## Technologies
-- **Frontend**: React
+- **Frontend**: React.js
 - **Backend**: Node.Js
 - **Database**: MongoDB
 
@@ -53,12 +53,6 @@ npm start
 - Log in as an internal or external user to perform operations as per your role and privileges.
 
 ## Security Features
-
-
-## Contributions
-
-
-## License
 
 
 ## Acknowledgements
